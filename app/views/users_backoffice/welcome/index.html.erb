@@ -1,0 +1,7 @@
+<h1>UsersBackoffice::Welcome#index</h1>
+<p>Find me in app/views/users_backoffice/welcome/index.html.erb</p>
+
+<% if user_signed_in? %>
+    <%= link_to "Efetuar logoff... [User]", destroy_user_session_path, method: :delete %>
+<% end %>
+
