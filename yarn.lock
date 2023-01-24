@@ -15,6 +15,11 @@
     jquery ">=1.10"
     moment "^2.9.0"
 
+bootstrap-growl-ifightcrime@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-growl-ifightcrime/-/bootstrap-growl-ifightcrime-1.1.0.tgz#3f83c12bd29281315580a05ec13841d60031539e"
+  integrity sha512-GDHa1aB/nQWaSZQF0dIWnDFDFsdUGcExYR83scVzDXWxjK/W0ZWSXKxK1wvvQeOGgKaLmAY8MLdxCqYc/1DnxQ==
+
 bootstrap-progressbar@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/bootstrap-progressbar/-/bootstrap-progressbar-0.9.0.tgz#cc00fb94797111556dc9af7ea6b5cadbee30cac4"

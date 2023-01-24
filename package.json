@@ -5,6 +5,7 @@
     "@fortawesome/fontawesome-free": "5.15.3",
     "bootstrap": "4.6.0",
     "bootstrap-daterangepicker": "git@github.com:dangrossman/daterangepicker.git#master",
+    "bootstrap-growl-ifightcrime": "^1.1.0",
     "bootstrap-progressbar": "^0.9.0",
     "chart.js": "2.9.4",
     "datatables.net-bs4": "1.10.24",
