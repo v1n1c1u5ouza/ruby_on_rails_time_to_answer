@@ -38,7 +38,9 @@ gem 'rails-i18n', '~> 5.1'
 gem 'tty-spinner'
 gem 'faker'
 gem 'awesome_print'
-gem 'kaminari'
+gem 'kaminari', '~> 1.1.1'
+gem 'kaminari-i18n', '~> 0.5.0'
+gem "cocoon", '~> 1.2.12'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
