@@ -235,19 +235,13 @@
             <div class="nav toggle">
               <a id="menu_toggle"><i class="fa fa-bars"></i></a>
             </div>
-            <nav class="nav navbar-nav">
+            <nav>
               <ul class="navbar-right">
-                <li class="nav-item dropdown open" style="padding-left: 15px">
-                  <a
-                    href="javascript:;"
-                    class="user-profile dropdown-toggle"
-                    aria-haspopup="true"
-                    id="navbarDropdown"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    <%= image_tag "img.jpg", alt:""  %> 
+                <li class="">
+                 <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <%= image_tag 'img.jpg', alt:'' %>
                     <%= current_user.email %>
+                    <span class=" fa fa-angle-down"></span>
                   </a>
                   <div
                     class="dropdown-menu dropdown-usermenu pull-right"
