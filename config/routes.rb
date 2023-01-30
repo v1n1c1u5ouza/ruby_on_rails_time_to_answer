@@ -12,6 +12,7 @@ Rails.application.routes.draw do
 
   namespace :site do
     get 'welcome/index'
+    get 'search', to: 'search#questions'
   end
 
   devise_for :admins
