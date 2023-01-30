@@ -17,7 +17,7 @@ Rails.application.routes.draw do
     post  'answer', to: 'answer#question'
   end
 
-  devise_for :admins
+  devise_for :admins, skip: [:registrations]
   devise_for :users
   
   get "inicio", to: "site/welcome#index"
