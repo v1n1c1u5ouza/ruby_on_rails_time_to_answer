@@ -2,7 +2,7 @@
   "name": "time_to_answer",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.15.3",
+    "font-awesome": "4.6.3",
     "bootstrap": "3.3.7",
     "bootstrap-daterangepicker": "git@github.com:dangrossman/daterangepicker.git#master",
     "bootstrap-growl-ifightcrime": "^1.1.0",
